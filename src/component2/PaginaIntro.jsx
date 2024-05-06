@@ -55,7 +55,7 @@ const PaginaIntro = ({ setopen,setcaja}) => {
             </div>
             <div className='flex  ml-[15%] mr-[15%] place-content-end'>
               <div className=' text-[#fff] font-serif text-[24px]'>
-                <Link to='/'>
+                <Link to='/proyecto-ayd/'>
                   Volver al Principio
                 </Link>
               </div>

@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom';
 import './App.css';
 import Barra_navegacion from './component/Barra_navegacion';
 import BarraLateral from './component/BarraLateral';
@@ -14,7 +14,7 @@ function App() {
 
   return (
     <>
-      <BrowserRouter>
+      <div>
         {/*
         <Barra_navegacion open={open} setopen={setopen}></Barra_navegacion>
         <BarraLateral open={open}/>
@@ -27,22 +27,24 @@ function App() {
         <Contenido1/>
         //funcional y oficial el problema
         <Problemas/>
-        
+        <Menu/>
+
+        si no funciona elimina el proyecto-ayp en menu para abajo solo el primer ruta no lo demas si
         */}
         
         
         <Routes>     
           <Route path='/proyecto-ayd' element={<Menu/>}/>
-          <Route path='/proyecto-ayd/menu' element={<PaginaIntro/>}/>
-          <Route path='/proyecto-ayd/Inicio' element={<Contenido1/>}/>
-          <Route path='/proyecto-ayd/Problemas' element={<Problemas/>}/>
-          <Route path='/proyecto-ayd/test' element={<PaginaIntroP/>}/>
+          <Route path='/menu' element={<PaginaIntro/>}/>
+          <Route path='/Inicio' element={<Contenido1/>}/>
+          <Route path='/Problemas' element={<Problemas/>}/>
+          <Route path='/test' element={<PaginaIntroP/>}/>
         </Routes>
         
         
         
         
-      </BrowserRouter>
+      </div>
     </>
     
   )
