@@ -1,3 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+
+.cajaIntro{
+    @apply w-full absolute h-[100%] flex flex-col items-start place-content-end p-7;
+}
+
+
+.cajaIntroTitulo2{
+    @apply text-[32px] text-[#E4C59E] font-semibold font-serif;
+}
+.cajaIntroTitulo1{
+    @apply z-10 absolute text-[#484848] text-[40px] flex gap-0 flex-col leading-none overflow-hidden w-[6%] group-hover:w-full group-hover:p-7 transition-all duration-700 font-bold tracking-wide font-serif;
+}
