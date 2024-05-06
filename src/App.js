@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Route, Routes } from 'react-router-dom';
+import { BrowserRouter as Router,Route, Routes } from 'react-router-dom';
 import './App.css';
 import Barra_navegacion from './component/Barra_navegacion';
 import BarraLateral from './component/BarraLateral';
@@ -32,6 +32,7 @@ function App() {
         si no funciona elimina el proyecto-ayp en menu para abajo solo el primer ruta no lo demas si
         */}
         
+      <Router>
         
         <Routes>     
           <Route path='/proyecto-ayd' element={<Menu/>}/>
@@ -40,7 +41,7 @@ function App() {
           <Route path='/Problemas' element={<Problemas/>}/>
           <Route path='/test' element={<PaginaIntroP/>}/>
         </Routes>
-        
+      </Router>   
         
         
         
