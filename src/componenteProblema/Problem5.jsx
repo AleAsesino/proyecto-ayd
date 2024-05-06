@@ -1,4 +1,4 @@
-
+import React from 'react'
 //no hay noticias de este modulo f
 const Problem5 = () => {
   return (

@@ -1,3 +1,4 @@
+import React from 'react'
 import img1 from '../assets/logoHechopng.png'
 import {useNavigate} from 'react-router-dom'
 const Menu = () => {

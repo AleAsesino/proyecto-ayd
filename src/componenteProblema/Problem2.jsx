@@ -1,3 +1,4 @@
+import React from 'react'
 import img1 from '../assets/diagramaP.png'
 
 const Problem3 = () => {

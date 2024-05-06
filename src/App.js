@@ -1,6 +1,7 @@
-import React,{ useState } from 'react';
+import React from 'react';
+
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import './App.css'
+import './App.css';
 import Barra_navegacion from './component/Barra_navegacion';
 import BarraLateral from './component/BarraLateral';
 import Menu from './component1/Menu';
@@ -12,34 +13,38 @@ function App() {
 
 
   return (
-    <BrowserRouter>
-      {/*
-      <Barra_navegacion open={open} setopen={setopen}></Barra_navegacion>
-      <BarraLateral open={open}/>
+    <>
+      <BrowserRouter>
+        {/*
+        <Barra_navegacion open={open} setopen={setopen}></Barra_navegacion>
+        <BarraLateral open={open}/>
 
-      ///funcional y oficial el menu
-      <Menu/>
-      //funcional y oficial el PaginadoIntro
-      <PaginaIntro/>
-      //funcional y oficial el contenido
-      <Contenido1/>
-      //funcional y oficial el problema
-      <Problemas/>
-      
-      
-      */}
-      <Routes>
+        ///funcional y oficial el menu
         
-        <Route path='' element={<Menu/>}/>
-        <Route path='/menu' element={<PaginaIntro/>}/>
-        <Route path='/Inicio' element={<Contenido1/>}/>
-        <Route path='/Problemas' element={<Problemas/>}/>
-        <Route path='/test' element={<PaginaIntroP/>}/>
+        //funcional y oficial el PaginadoIntro
+        <PaginaIntro/>
+        //funcional y oficial el contenido
+        <Contenido1/>
+        //funcional y oficial el problema
+        <Problemas/>
         
-      </Routes>
-      
-      
-    </BrowserRouter>
+        */}
+        
+        
+        <Routes>     
+          <Route path='/proyecto-ayd' element={<Menu/>}/>
+          <Route path='/proyecto-ayd/menu' element={<PaginaIntro/>}/>
+          <Route path='/proyecto-ayd/Inicio' element={<Contenido1/>}/>
+          <Route path='/proyecto-ayd/Problemas' element={<Problemas/>}/>
+          <Route path='/proyecto-ayd/test' element={<PaginaIntroP/>}/>
+        </Routes>
+        
+        
+        
+        
+      </BrowserRouter>
+    </>
+    
   )
 }
 
