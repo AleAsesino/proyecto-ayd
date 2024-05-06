@@ -3,7 +3,7 @@ import React from 'react'
 const Introduccion = () => {
   return (
     <div className='w-full bg-[#0A192E] flex pb-40 place-content-center'>
-        <div className='  w-[40%]'>
+        <div className='  componenteContenido_controller_Intro_Ante'>
             <h1 className='text-white text-[24px] p-2'>1. Introducción</h1>
             <hr className=' border-gray-50'/>
 

@@ -7,6 +7,7 @@ import Problem3 from './Problem3';
 import Problem4 from './Problem4';
 import Problem5 from './Problem5';
 import Problem6 from './Problem6';
+import Footer from '../component/Footer';
 
 const Problemas = () => {
   return (
@@ -18,6 +19,7 @@ const Problemas = () => {
         <Problem3/>
         <Problem4/>
         <Problem6/>
+        <Footer/>
     </div>
   )
 }

@@ -106,7 +106,7 @@ const Menu = () => {
 
 
                     <span className="cajaIntro ">
-                        <h1 className="cajaIntroTitulo2">Orientado a Objetos</h1>
+                        <h1 className="cajaIntroTitulo2 leading-none">Orientado a Objetos</h1>
                         <p className="text-xl text-[#FFFFFF]">Modelo y diseño</p>
                     </span>
                 </div>

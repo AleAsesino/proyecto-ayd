@@ -4,7 +4,7 @@ import img2 from '../assets/supermercado.jpg';
 const Antecedentes = () => {
   return (
     <div className='w-full bg-[#0A192E] flex pb-40 place-content-center'>
-        <div className='  w-[40%]'>
+        <div className=' componenteContenido_controller_Intro_Ante'>
             <h1 className='text-white text-[24px] p-2'>2. Antecedentes</h1>
             <hr className=' border-gray-50 py-5'/>
 
@@ -45,7 +45,7 @@ const Antecedentes = () => {
             <div className='flex relative w-[100%] my-20'>
               <span className="w-[50%]">
               
-                <h1 className='  text-[#B1BACC] text-[20px] bg-[#172945] p-5 z-auto'>
+                <h1 className='  text-[#B1BACC] text-[20px] bg-[#172945] p-5'>
                                     El supermercado a diferencia de otras tiendas, este permite a los usuarios
                                     o individuos tener a su alcanse todo una gama grande de productos, tanto como
                                     productos organicos, electronicos, alimentos envasados y aparatos de todo tipo,

@@ -24,8 +24,8 @@ function Barra_navegacion({ruta}) {
   };
   return (
     <div>
-      <div className='absolute bg-slate-200 z-50'>{open.toString()}</div>
-      <div className={`${open ? ' flex bg-bg-barraNavegacion p-5 items-center fixed w-full':' hidden'}`} >
+      
+      <div className={`${open ? 'z-10 flex bg-bg-barraNavegacion p-5 items-center fixed w-full bg-[#1C1C1C]':' hidden'}`} >
         
         <button className="" onClick={verificar}>
           <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" className="ml-3">
