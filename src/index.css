@@ -13,7 +13,7 @@
     @apply text-[32px] text-[#E4C59E] font-semibold font-serif;
 }
 .cajaIntroTitulo1{
-    @apply z-10 absolute text-[#484848] text-[40px] flex gap-0 flex-col leading-none overflow-hidden w-[6%] group-hover:w-full group-hover:p-7 transition-all duration-700 font-bold tracking-wide font-serif;
+    @apply z-10 absolute text-[#484848] text-[40px] flex gap-0 flex-col leading-none overflow-hidden w-[25px] group-hover:w-full group-hover:p-7 group-hover:text-[#A08949] transition-all duration-700 font-bold tracking-wide;
 }
 .componenteContenido_controller_Intro_Ante{
     @apply 2xl:w-[40%] xl:w-[50%] lg:w-[60%] sm:w-[90%]

@@ -1,3 +1,41 @@
+.inria-serif-light {
+  font-family: "Inria Serif", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.inria-serif-regular {
+  font-family: "Inria Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.inria-serif-bold {
+  font-family: "Inria Serif", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.inria-serif-light-italic {
+  font-family: "Inria Serif", serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.inria-serif-regular-italic {
+  font-family: "Inria Serif", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.inria-serif-bold-italic {
+  font-family: "Inria Serif", serif;
+  font-weight: 700;
+  font-style: italic;
+}
+/*todo de arriba son la configuracion de las letras*/
+
+
 .texto-sombreado{
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   
@@ -35,4 +73,13 @@
   background-image: url('./assets/34793.jpg');
   background-size: cover;
   
+}
+
+
+.cajaRecalculadora{
+  clip-path: polygon(34% 0, 100% 0, 100% 100%, 0 100%);
+}
+.fondoMenu{
+  background-image: url('./assets/8782.jpg');
+  background-size: cover;
 }

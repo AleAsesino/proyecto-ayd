@@ -71,7 +71,7 @@ const Menu = () => {
                         <path d="M117 139.286V128.143C117 121.989 121.989 117 128.143 117H139.286C145.44 117 150.429 121.989 150.429 128.143V139.286C150.429 145.44 145.44 150.429 139.286 150.429H128.143C121.989 150.429 117 145.44 117 139.286Z" stroke="#B5B436"/>
                         </svg>
                     </span>
-                    <div className="cajaIntroTitulo1">
+                    <div className="cajaIntroTitulo1 inria-">
                         <h1 className="colorTexto">Analisis</h1>
                         <h1 className="colorTexto">&</h1>
                         <h1 className="colorTexto">Diseño</h1>

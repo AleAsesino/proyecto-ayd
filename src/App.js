@@ -9,6 +9,8 @@ import PaginaIntro from './component2/PaginaIntro';
 import Contenido1 from './componenteContenido/Contenido1';
 import Problemas from './componenteProblema/Problemas';
 import PaginaIntroP from './component2/PaginaIntroP';
+import MenuV2 from './component1/MenuV2';
+import DFDxNiveles from './ComponenteEstructurado/DFDxNiveles';
 function App() {
 
 
@@ -35,11 +37,13 @@ function App() {
       <Router>
         
         <Routes>     
-          <Route path='/proyecto-ayd' element={<Menu/>}/>
+          <Route path='/proyecto-ayd' element={<MenuV2/>}/>
           <Route path='/menu' element={<PaginaIntro/>}/>
           <Route path='/Inicio' element={<Contenido1/>}/>
           <Route path='/Problemas' element={<Problemas/>}/>
           <Route path='/test' element={<PaginaIntroP/>}/>
+          <Route path='/test1' element={<MenuV2/>}/>
+          <Route path='/ProblemaEstructurado' element={<DFDxNiveles/>}/>
         </Routes>
       </Router>   
         
