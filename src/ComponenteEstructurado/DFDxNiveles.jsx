@@ -1,5 +1,5 @@
 import React from 'react'
-import Barra_navegacion from '../component/Barra_navegacion'
+import Barra_navegacionV2 from '../component/Barra_navegacionV2'
 
 
 
@@ -27,8 +27,8 @@ import ImgSCG2 from '../assets/SCG2.png'
 const DFDxNiveles = () => {
   return (
     <>
-      <Barra_navegacion ruta={'A&D Estructurado'}/>
-      <div className='w-full h-screen bg-slate-600 flex items-center place-content-center'>
+      <Barra_navegacionV2 ruta={'A&D_Estructurado'}/>
+      <div className='w-full h-screen bg-[#0A192E] flex items-center place-content-center'>
         <span className=''>
           <h1 className="text-[#B5B436] text-[96px] leading-normal inria-serif-bold">Analisis y Diseño Estructurado</h1>
           <h1 className="text-[#9492D2] text-[32px] leading-none inria-serif-bold">Modelo Ambiental y Estructurado</h1>
@@ -45,7 +45,10 @@ const DFDxNiveles = () => {
 
               <h1 className='text-white text-[32px] p-2'>SubSistema de Inventario</h1>
               <h1 className='text-[#B1BACC] text-[20px] p-5 bg-[#172945] mb-14'>
-                            Sin datos       
+                                El sistema de supermercado debe tener un sistema propio, enfocado al inventario,
+                                para la gestión de productos entrantes, para eso deben primero ser verificados
+                                y reclamados a tiempos si el producto esta dañado, tambien se deber hacer seguimiento
+                                a los productos y precios con los que se adquiere.
               </h1>
               <img src={ImgInv}/>
               <img src={ImgInvG0}/>
@@ -63,7 +66,12 @@ const DFDxNiveles = () => {
               
               <h1 className='text-white text-[32px] p-2'>SubSistema de compras </h1>
               <h1 className='text-[#B1BACC] text-[20px] p-5 bg-[#172945] mb-14'>
-                              Sin datos
+                                El propósito del Subsistema de Compras es proporcionar una plataforma robusta y
+                                eficiente para la adquisición de bienes y servicios necesarios para el funcionamiento
+                                óptimo de la organización. Este subsistema pretende asegurar que todos los procesos
+                                de compra se realicen transparentes, económicas y alineados con las metas
+                                estratégicas de la empresa, fomentando relaciones sólidas con proveedores y
+                                garantizando la calidad y disponibilidad de los recursos necesarios.
               </h1>
               <img src={ImgSC}/>
               <img src={ImgSCG0}/>

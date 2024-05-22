@@ -11,6 +11,7 @@ import Problemas from './componenteProblema/Problemas';
 import PaginaIntroP from './component2/PaginaIntroP';
 import MenuV2 from './component1/MenuV2';
 import DFDxNiveles from './ComponenteEstructurado/DFDxNiveles';
+import Barra_navegacionV2 from './component/Barra_navegacionV2';
 function App() {
 
 
@@ -42,7 +43,7 @@ function App() {
           <Route path='/Inicio' element={<Contenido1/>}/>
           <Route path='/Problemas' element={<Problemas/>}/>
           <Route path='/test' element={<PaginaIntroP/>}/>
-          <Route path='/test1' element={<MenuV2/>}/>
+          <Route path='/test1' element={<Barra_navegacionV2 ruta={'Test1'}/>}/>
           <Route path='/ProblemaEstructurado' element={<DFDxNiveles/>}/>
         </Routes>
       </Router>   

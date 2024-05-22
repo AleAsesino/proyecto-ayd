@@ -18,3 +18,7 @@
 .componenteContenido_controller_Intro_Ante{
     @apply 2xl:w-[40%] xl:w-[50%] lg:w-[60%] sm:w-[90%]
 }
+/*Barra lateral V2 configuracion css*/
+.componenteBarraLateralV2{
+    @apply h-16 flex place-content-center items-center hover:bg-[#363636] transition-colors duration-500
+}
