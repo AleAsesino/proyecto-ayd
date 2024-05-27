@@ -22,3 +22,6 @@
 .componenteBarraLateralV2{
     @apply h-16 flex place-content-center items-center hover:bg-[#363636] transition-colors duration-500
 }
+.componenteContenido_controller_Intro_Ante_Estructurado{
+    @apply 2xl:w-[70%] xl:w-[50%] lg:w-[60%] sm:w-[90%]
+}

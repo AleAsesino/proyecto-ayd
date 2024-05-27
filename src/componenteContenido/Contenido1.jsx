@@ -1,5 +1,5 @@
 import React from 'react'
-import Barra_navegacion from '../component/Barra_navegacion'
+import Barra_navegacionV2_1 from '../component/Barra_navegacionV2_1'
 import Titulo from './Titulo';
 import Introduccion from './Introduccion';
 import Antecedentes from './Antecedentes';
@@ -10,10 +10,15 @@ const Contenido1 = () => {
         {/*Botton de ventana para cambio
 
         */}
-        <Barra_navegacion ruta={'Inicio'}/>
+        <Barra_navegacionV2_1 ruta={'Inicio'}/>
         <Titulo/>
-        <Introduccion/>
-        <Antecedentes />
+        <section id='introduccion'>
+          <Introduccion/>
+        </section>
+        <section id='antecedentes'>
+          <Antecedentes />
+        </section>
+        
         <Footer/>
     </div>
   )

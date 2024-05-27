@@ -12,6 +12,20 @@ import PaginaIntroP from './component2/PaginaIntroP';
 import MenuV2 from './component1/MenuV2';
 import DFDxNiveles from './ComponenteEstructurado/DFDxNiveles';
 import Barra_navegacionV2 from './component/Barra_navegacionV2';
+/*Sistema Estructurado */
+import MA_Inventario from './ComponenteEstructurado/SistemaInventario/MA_Inventario';
+import DFDxN_Inventario from './ComponenteEstructurado/SistemaInventario/DFDxN_Inventario';
+import DD_Inventario from './ComponenteEstructurado/SistemaInventario/DD_Inventario';
+
+import MA_compras from './ComponenteEstructurado/SistemaCompras/MA_compras';
+import DFDxN_compras from './ComponenteEstructurado/SistemaCompras/DFDxN_compras';
+import DD_compras from './ComponenteEstructurado/SistemaCompras/DD_compras';
+
+import MA_rrhh from './ComponenteEstructurado/SistemaRRHH/MA_rrhh';
+import DFDxN_rrhh from './ComponenteEstructurado/SistemaRRHH/DFDxN_rrhh';
+import DD_rrhh from './ComponenteEstructurado/SistemaRRHH/DD_rrhh';
+
+
 function App() {
 
 
@@ -45,6 +59,19 @@ function App() {
           <Route path='/test' element={<PaginaIntroP/>}/>
           <Route path='/test1' element={<Barra_navegacionV2 ruta={'Test1'}/>}/>
           <Route path='/ProblemaEstructurado' element={<DFDxNiveles/>}/>
+
+          {/*modelo estructurado de inventario */}
+          <Route path='/MA_Inventario' element={<MA_Inventario/>}/>
+          <Route path='/DFDxN_Inventario' element={<DFDxN_Inventario/>}/>
+          <Route path='/DD_Inventario' element={<DD_Inventario/>}/>
+          {/*modelo estructurado de compras */}
+          <Route path='/MA_compras' element={<MA_compras/>}/>
+          <Route path='/DFDxN_compras' element={<DFDxN_compras/>}/>
+          <Route path='/DD_compras' element={<DD_compras/>}/>
+          {/*modelo estructurado de rrhh */}
+          <Route path='/MA_rrhh' element={<MA_rrhh/>}/>
+          <Route path='/DFDxN_rrhh' element={<DFDxN_rrhh/>}/>
+          <Route path='/DD_rrhh' element={<DD_rrhh/>}/>
         </Routes>
       </Router>   
         

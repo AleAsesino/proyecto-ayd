@@ -3,7 +3,7 @@ import img1 from '../assets/Piggly_Wiggly_store,_1918.png';
 import img2 from '../assets/supermercado.jpg';
 const Antecedentes = () => {
   return (
-    <div className='w-full bg-[#0A192E] flex pb-40 place-content-center'>
+    <div className='w-full bg-[#0A192E] flex pb-40 place-content-center pt-28'>
         <div className=' componenteContenido_controller_Intro_Ante'>
             <h1 className='text-white text-[24px] p-2'>2. Antecedentes</h1>
             <hr className=' border-gray-50 py-5'/>

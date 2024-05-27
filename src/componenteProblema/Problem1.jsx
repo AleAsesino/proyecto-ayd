@@ -4,7 +4,7 @@ const Problem1 = () => {
   return (
     <div>
       
-      <div className='w-full bg-[#0A192E] flex pb-40 place-content-center'>
+      <div className='w-full bg-[#0A192E] flex pt-28 pb-12 place-content-center'>
         <div className='  w-[60%]'>
             <h1 className='text-white text-[24px] p-2'>1. Planteamiento del problema </h1>
             <hr className=' border-gray-50'/>
