@@ -11,14 +11,7 @@ const Contenido1 = () => {
 
         */}
         <Barra_navegacionV2_1 ruta={'Inicio'}/>
-        <Titulo/>
-        <section id='introduccion'>
-          <Introduccion/>
-        </section>
-        <section id='antecedentes'>
-          <Antecedentes />
-        </section>
-        
+        <Titulo/>      
         <Footer/>
     </div>
   )

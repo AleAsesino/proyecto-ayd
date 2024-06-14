@@ -1,5 +1,5 @@
 import React from 'react'
-import {useNavigate} from 'react-router-dom'
+import {useNavigate,Link} from 'react-router-dom'
 const Barra_NavOpcion = () => {
   
   
@@ -23,7 +23,7 @@ const Barra_NavOpcion = () => {
                     </clipPath>
                     </defs>
                     </svg>
-                    <a className='text-[16px] text-[#ffffff] inria-serif-bold px-2 hover:text-[#4871AF] cursor-pointer' href='#cont1'>Planteamiento</a>
+                    <Link to='/Problemas/problem1' className='text-[16px] text-[#ffffff] inria-serif-bold px-2 hover:text-[#4871AF] cursor-pointer'>Planteamiento</Link>
                   </div>
                   <div className='flex flex-row pl-6 py-2 group'>
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -40,7 +40,7 @@ const Barra_NavOpcion = () => {
                     </clipPath>
                     </defs>
                     </svg>
-                    <a className='text-[16px] text-[#ffffff] inria-serif-bold px-2 hover:text-[#4871AF] cursor-pointer' href='#cont2'>Árbol</a>
+                    <Link to='/Problemas/problem2' className='text-[16px] text-[#ffffff] inria-serif-bold px-2 hover:text-[#4871AF] cursor-pointer'>Árbol</Link>
                   </div>
                   <div className='flex flex-row pl-6 py-2 group'>
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -57,7 +57,7 @@ const Barra_NavOpcion = () => {
                     </clipPath>
                     </defs>
                     </svg>
-                    <a className='text-[16px] text-[#ffffff] inria-serif-bold px-2 hover:text-[#4871AF] cursor-pointer' href='#cont3'>Formulación del problema</a>
+                    <Link to='/Problemas/problem3' className='text-[16px] text-[#ffffff] inria-serif-bold px-2 hover:text-[#4871AF] cursor-pointer'>Formulación del problema</Link>
                   </div>
                   <div className='flex flex-row pl-6 py-2 group'>
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -74,7 +74,7 @@ const Barra_NavOpcion = () => {
                     </clipPath>
                     </defs>
                     </svg>
-                    <a className='text-[16px] text-[#ffffff] inria-serif-bold px-2 hover:text-[#4871AF] cursor-pointer' href='#cont4'>Propósito del estudio</a>
+                    <Link to='/Problemas/problem4' className='text-[16px] text-[#ffffff] inria-serif-bold px-2 hover:text-[#4871AF] cursor-pointer'>Propósito del estudio</Link>
                   </div>
                   <div className='flex flex-row pl-6 py-2 group'>
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -91,7 +91,7 @@ const Barra_NavOpcion = () => {
                     </clipPath>
                     </defs>
                     </svg>
-                    <a className='text-[16px] text-[#ffffff] inria-serif-bold px-2 hover:text-[#4871AF] cursor-pointer' href='#cont5'>Planificación</a>
+                    <Link to='/Problemas/problem6' className='text-[16px] text-[#ffffff] inria-serif-bold px-2 hover:text-[#4871AF] cursor-pointer'>Planificación</Link>
                   </div>
                   
                   

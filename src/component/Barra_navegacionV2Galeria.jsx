@@ -1,17 +1,17 @@
 import {useState} from 'react';
-import {useNavigate,Link} from 'react-router-dom'
+import {useNavigate} from 'react-router-dom'
 
 import imagenLogo from '../assets/logoHechopng.png';
 import PaginaIntro from '../component2/PaginaIntro';
 import PaginaIntroP from '../component2/PaginaIntroP';
-import Barra_NavOpcion from './Barra_NavOpcion_1'
-function Barra_navegacionV2({ruta}) {
+import Barra_NavOpcion from '../component/Barra_NavOpcion'
+function Barra_navegacionV2Galeria({ruta}) {
   const enrutador = useNavigate();
   const activarP =()=>{
    enrutador('/proyecto-ayd');
   }
   const activarP1 =()=>{
-    enrutador('/Inicio');
+    enrutador('/Galeria');
   }
   
   
@@ -20,6 +20,8 @@ function Barra_navegacionV2({ruta}) {
     <div>
       
       <div className='z-10 flex bg-bg-barraNavegacion p-5 items-center fixed w-full bg-[#1C1C1C]' >
+        
+        
         <img src={imagenLogo} alt="" className="w-16 h-16 ml-16" />
       
         <h1 className="text-[32px] letraCustomGradient ml-6 inria-serif-bold cursor-pointer" onClick={activarP}>
@@ -31,12 +33,7 @@ function Barra_navegacionV2({ruta}) {
         <h1 className="text-[32px] text-white ml-6 inria-serif-bold cursor-pointer" onClick={activarP1}>
           {ruta}
         </h1>
-        <div className='w-full  flex flex-row place-content-end pr-[16%]'>
-          <h1 className=" text-[24px] text-[#A0A0A0] px-10 group inria-serif-bold cursor-pointer">
-            Contenido
-            <Barra_NavOpcion/>
-          </h1>
-        </div>
+        
         
       </div>
       
@@ -46,4 +43,4 @@ function Barra_navegacionV2({ruta}) {
   )
 }
 
-export default Barra_navegacionV2
+export default Barra_navegacionV2Galeria

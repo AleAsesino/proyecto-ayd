@@ -4,17 +4,15 @@ import {useNavigate,Link} from 'react-router-dom'
 import imagenLogo from '../assets/logoHechopng.png';
 import PaginaIntro from '../component2/PaginaIntro';
 import PaginaIntroP from '../component2/PaginaIntroP';
-import Barra_NavOpcion from './Barra_NavOpcion_1'
-function Barra_navegacionV2({ruta}) {
+import Barra_NavOpcionPOO from './Barra_NavOpcionPOO';
+function Barra_navegacionPOO({ruta}) {
   const enrutador = useNavigate();
   const activarP =()=>{
    enrutador('/proyecto-ayd');
   }
   const activarP1 =()=>{
-    enrutador('/Inicio');
+    enrutador('/AYDOO');
   }
-  
-  
 
   return (
     <div>
@@ -34,7 +32,7 @@ function Barra_navegacionV2({ruta}) {
         <div className='w-full  flex flex-row place-content-end pr-[16%]'>
           <h1 className=" text-[24px] text-[#A0A0A0] px-10 group inria-serif-bold cursor-pointer">
             Contenido
-            <Barra_NavOpcion/>
+            <Barra_NavOpcionPOO nombre={'Sistemas'} ruta1={'/InvPOO'} ruta2={'/InvCUN'} ruta3={'/InvEx'} ruta4={'/ComprasPOO'} ruta5={'/ComprasCUN'} ruta6={'/ComprasEx'}/>
           </h1>
         </div>
         
@@ -46,4 +44,4 @@ function Barra_navegacionV2({ruta}) {
   )
 }
 
-export default Barra_navegacionV2
+export default Barra_navegacionPOO

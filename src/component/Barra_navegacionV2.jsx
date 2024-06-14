@@ -33,19 +33,15 @@ function Barra_navegacionV2({ruta}) {
         <h1 className="text-[32px] text-white ml-6 inria-serif-bold cursor-pointer" onClick={activarP1}>
           {ruta}
         </h1>
-        <div className='w-full  flex flex-row place-content-end pr-[16%]'>
+        <div className='w-full  flex flex-row place-content-end pr-[10%]'>
           <h1 className=' text-[24px] text-[#A0A0A0] px-10 group inria-serif-bold cursor-pointer'>
             Inventario
-            <Barra_NavOpcion nombre={'Sistema de Inventario'} rutaMA={'/MA_Inventario'} rutaDFDxN={'/DFDxN_Inventario'} rutaDD={'/DD_Inventario'}/>
+            <Barra_NavOpcion nombre={'Sistema de Inventario'} rutaMA={'/MA_Inventario'} rutaMA1={'/MA_Inventario2'} rutaMA2={'/MA_Inventario3'} rutaDFDxN={'/DFDxN_Inventario'} rutaDD={'/DD_Inventario'}/>
           </h1>
           
           <h1 className=" text-[24px] text-[#A0A0A0] px-10 group inria-serif-bold cursor-pointer">
             Compras
-            <Barra_NavOpcion nombre={'Sistema de Compras'} rutaMA={'/MA_compras'} rutaDFDxN={'/DFDxN_compras'} rutaDD={'/DD_compras'}/>
-          </h1>
-          <h1 className=" text-[24px] text-[#A0A0A0] px-10 group inria-serif-bold cursor-pointer">
-            RRHH
-            <Barra_NavOpcion nombre={'Sistema de Recursos Humanos'} rutaMA={'/MA_rrhh'} rutaDFDxN={'/DFDxN_rrhh'} rutaDD={'/DD_rrhh'}/>
+            <Barra_NavOpcion nombre={'Sistema de Compras'} rutaMA={'/MA_compras'} rutaMA1={'/MA_compras2'} rutaMA2={'/MA_compras3'} rutaDFDxN={'/DFDxN_compras'} rutaDD={'/DD_compras'}/>
           </h1>
         </div>
         

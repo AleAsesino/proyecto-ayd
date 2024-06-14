@@ -16,6 +16,12 @@ const MenuV2 = () => {
     const ActivarEstructurado = ()=>{
         enrutador('/ProblemaEstructurado');
     }
+    const ActivarOO = ()=>{
+        enrutador('/AYDOO');
+    }
+    const ActivarG = ()=>{
+        enrutador('/Galeria');
+    }
 
     return (
     <div className='w-full h-screen bg-[#151515] grid grid-cols-3 gap-8 p-8'>
@@ -36,9 +42,6 @@ const MenuV2 = () => {
                         <div>
                         <h1 className='text-[25px] text-[#C2C2C2]  inria-serif-bold leading-tight'>Integrantes:</h1>
                         <h1 className='text-[20px] text-[#46BBA6]  inria-serif-light leading-none pl-5'>Choque Gutierrez Manuel Alejandro<br/>
-                            Claros Choquemisa Cesar Raymundo<br/>
-                            Vasquez zuñagua carlos kevin<br/>
-                            Maquera Ochoa Hebert<br/>
                             Alvarez Portugal Luis Gael   
                         </h1>
                         </div>
@@ -84,7 +87,7 @@ const MenuV2 = () => {
 
 
 
-        <div className="bg-[#1F1F1F] rounded-2xl flex flex-col place-content-end">
+        <div className="bg-[#1F1F1F] rounded-2xl flex flex-col place-content-end" onClick={ActivarG}>
             <div className='w-full flex place-content-center p-5'>
                 <svg width="150" height="150" viewBox="0 0 150 150" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M80.0361 73.9281C78.4468 74.6183 76.7329 74.9743 75.0004 74.9743C73.2677 74.9743 71.5538 74.6183 69.9646 73.9281L8.89317 45.6424C7.90148 45.1423 7.06808 44.3766 6.4858 43.4308C5.90352 42.4849 5.59521 41.396 5.59521 40.2853C5.59521 39.1745 5.90352 38.0856 6.4858 37.1398C7.06808 36.194 7.90148 35.4284 8.89317 34.9281L69.9646 6.42815C71.5538 5.73808 73.2677 5.38199 75.0004 5.38199C76.7329 5.38199 78.4468 5.73808 80.0361 6.42815L141.107 34.7139C142.099 35.2141 142.933 35.9797 143.515 36.9255C144.098 37.8714 144.405 38.9602 144.405 40.071C144.405 41.1817 144.098 42.2706 143.515 43.2165C142.933 44.1624 142.099 44.928 141.107 45.4281L80.0361 73.9281Z" stroke="url(#paint0_linear_241_2)" stroke-linecap="round" stroke-linejoin="round"/>
@@ -114,7 +117,7 @@ const MenuV2 = () => {
 
 
 
-        <div className="bg-[#1F1F1F] rounded-2xl flex flex-col place-content-end group">
+        <div className="bg-[#1F1F1F] rounded-2xl flex flex-col place-content-end group" onClick={ActivarOO}>
             <div className='w-full flex place-content-center p-5 relative'>
                 <div className="cajaIntroTitulo1 inria-serif-bold">
                         <h1 className="colorTexto">Analisis</h1>
@@ -157,7 +160,7 @@ const MenuV2 = () => {
             <h1 className='px-7 text-[#E4C59E] text-[32px] inria-serif-bold leading-none'>Orientado a objetos</h1>
             <h1 className='px-7 pb-7 text-[#59618A] text-[20px]'>Modelo y diseño</h1>
         </div>
-
+ 
 
 
 

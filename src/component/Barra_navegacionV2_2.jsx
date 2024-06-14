@@ -11,7 +11,7 @@ function Barra_navegacionV2({ruta}) {
    enrutador('/proyecto-ayd');
   }
   const activarP1 =()=>{
-    enrutador('/Inicio');
+    enrutador('/Problemas');
   }
   
   

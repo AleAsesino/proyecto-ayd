@@ -1,5 +1,5 @@
 import React from 'react'
-import {useNavigate} from 'react-router-dom'
+import {useNavigate,Link} from 'react-router-dom'
 const Barra_NavOpcion = () => {
   
   
@@ -23,7 +23,7 @@ const Barra_NavOpcion = () => {
                     </clipPath>
                     </defs>
                     </svg>
-                    <a className='text-[16px] text-[#ffffff] inria-serif-bold px-2 hover:text-[#4871AF] cursor-pointer' href='#introduccion'>Introducción</a>
+                    <Link to='/Inicio/introduccion' className='text-[16px] text-[#ffffff] inria-serif-bold px-2 hover:text-[#4871AF] cursor-pointer'>Introducción</Link>
                   </div>
                   <div className='flex flex-row pl-6 py-2 group'>
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -40,7 +40,7 @@ const Barra_NavOpcion = () => {
                     </clipPath>
                     </defs>
                     </svg>
-                    <a className='text-[16px] text-[#ffffff] inria-serif-bold px-2 hover:text-[#4871AF] cursor-pointer' href='#antecedentes'>Antecedentes</a>
+                    <Link to='/Inicio/antedentes' className='text-[16px] text-[#ffffff] inria-serif-bold px-2 hover:text-[#4871AF] cursor-pointer'>Antecedentes</Link>
                   </div>
                   
                   

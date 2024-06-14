@@ -1,5 +1,6 @@
 import React from 'react'
 import imagenLogo from '../assets/logoHechopng.png'
+import Barra_navegacionV2_1 from '../component/Barra_navegacionV2_1'
 const Titulo = () => {
   return (
     <div className='w-full h-screen bg-[#0A192E] flex pb-40 items-center place-content-center'>

@@ -17,10 +17,10 @@ const DFDxNiveles = () => {
     <>
 
       <Barra_navegacionV2 ruta={'A&D_Estructurado'}/>
-      <div className='w-full h-screen bg-[#0A192E] flex items-center place-content-center'>
+      <div className='w-full h-screen bg-[#0A192E] flex items-center place-content-center p-[10%]'>
         <span className=''>
           <h1 className="text-[#B5B436] text-[96px] leading-normal inria-serif-bold">Analisis y Diseño Estructurado</h1>
-          <h1 className="text-[#9492D2] text-[32px] leading-none inria-serif-bold">Modelo Ambiental y Estructurado</h1>
+          <h1 className="text-[#9492D2] text-[32px] leading-none inria-serif-bold">Modelo ambiental y de comportamiento</h1>
         </span>
       </div> 
       {/*=======================contenido==========================*/}
