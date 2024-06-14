@@ -1,13 +1,16 @@
 {
   "files": {
-    "main.css": "/proyecto-ayd/static/css/main.91f7819b.css",
-    "main.js": "/proyecto-ayd/static/js/main.c4c9cfab.js",
+    "main.css": "/proyecto-ayd/static/css/main.141ac195.css",
+    "main.js": "/proyecto-ayd/static/js/main.4be7c30e.js",
     "static/js/453.b8e495f3.chunk.js": "/proyecto-ayd/static/js/453.b8e495f3.chunk.js",
     "static/media/34793.jpg": "/proyecto-ayd/static/media/34793.17da7e43c87266826a76.jpg",
     "static/media/8782.jpg": "/proyecto-ayd/static/media/8782.a94cfc1b6a8447d7a370.jpg",
     "static/media/Piggly_Wiggly_store,_1918.png": "/proyecto-ayd/static/media/Piggly_Wiggly_store,_1918.3daa513a94bb2e0cd953.png",
+    "static/media/POOCompras.png": "/proyecto-ayd/static/media/POOCompras.be131cb8dc2741efa1ca.png",
     "static/media/SCG0.png": "/proyecto-ayd/static/media/SCG0.11b68a0018549a2df168.png",
+    "static/media/POOInventario.png": "/proyecto-ayd/static/media/POOInventario.815e3b8951ebfca7be3d.png",
     "static/media/graficoSistem.png": "/proyecto-ayd/static/media/graficoSistem.f541fc08d6940b505717.png",
+    "static/media/InvCUM.png": "/proyecto-ayd/static/media/InvCUM.edd6479c484a225ba889.png",
     "static/media/subsistemaInventario.png": "/proyecto-ayd/static/media/subsistemaInventario.79c44fc04a5c61fc0179.png",
     "static/media/subsistemaInventarioN2G1.png": "/proyecto-ayd/static/media/subsistemaInventarioN2G1.999cb99812392171de5e.png",
     "static/media/diagramaP.png": "/proyecto-ayd/static/media/diagramaP.ea10117f9552cd8b295a.png",
@@ -22,14 +25,15 @@
     "static/media/SubSistemaInv.png": "/proyecto-ayd/static/media/SubSistemaInv.30f5274bce829331a828.png",
     "static/media/subsistemaRRHHG4.png": "/proyecto-ayd/static/media/subsistemaRRHHG4.952c29dcb20db7ddf10c.png",
     "static/media/logoHechopng.png": "/proyecto-ayd/static/media/logoHechopng.4f51889c2ad0de5bb5b3.png",
+    "static/media/CUcompras.jpg": "/proyecto-ayd/static/media/CUcompras.7fa9eccad837fba86795.jpg",
     "static/media/supermercado.jpg": "/proyecto-ayd/static/media/supermercado.6c47c2dd2971deb28fa7.jpg",
     "index.html": "/proyecto-ayd/index.html",
-    "main.91f7819b.css.map": "/proyecto-ayd/static/css/main.91f7819b.css.map",
-    "main.c4c9cfab.js.map": "/proyecto-ayd/static/js/main.c4c9cfab.js.map",
+    "main.141ac195.css.map": "/proyecto-ayd/static/css/main.141ac195.css.map",
+    "main.4be7c30e.js.map": "/proyecto-ayd/static/js/main.4be7c30e.js.map",
     "453.b8e495f3.chunk.js.map": "/proyecto-ayd/static/js/453.b8e495f3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.91f7819b.css",
-    "static/js/main.c4c9cfab.js"
+    "static/css/main.141ac195.css",
+    "static/js/main.4be7c30e.js"
   ]
 }
