@@ -9,7 +9,7 @@ const MA_Inventario2 = () => {
             <div className='w-full h-screen bg-[#0A192E] flex pb-40 place-content-center'>
                 <div className='  componenteContenido_controller_Intro_Ante_Estructurado pt-40'>
 
-                    <h1 className='text-white text-[24px] p-2'>2. Declaración de propósitos</h1>
+                    <h1 className='text-white text-[24px] p-2'>2. Diagrama de contexto</h1>
                     <hr className=' border-gray-50'/>
                     <div className='p-5'>
                       <img className='bg-[#172945]' src={ImgInv}/>
